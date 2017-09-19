@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Atimir.App">
+            
+	<Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="FundoVermelho">Red</Color>
+            <Color x:Key="labelBranco">White</Color>
+            <Color x:Key="fundoTransparent">Transparent</Color>
+
+            <Style x:Key="fundoAplicacao" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="Black"/>
+            </Style>
+
+            <Style x:Key="styleLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+
+            <Style x:Key="styleButton" TargetType="Button">
+                <Setter Property="BorderColor" Value="Transparent"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
